@@ -1,10 +1,11 @@
 import { Component, inject } from '@angular/core';
 import { BashTemplateComponent } from '../../shared/components/bash-template/bash-template.component';
+import { DarkModeSwitchComponent } from '../../shared/components/dark-mode-switch/dark-mode-switch.component';
 import { ModalConfirmationService } from '../../shared/components/modals/modal-confirmation/modal-confirmation.service';
 
 @Component({
   templateUrl: './dashboard.page.html',
-  imports: [BashTemplateComponent],
+  imports: [BashTemplateComponent, DarkModeSwitchComponent],
 })
 export class DashboardPage {
   private modalConfirmationService = inject(ModalConfirmationService);
