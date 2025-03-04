@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@use "tailwindcss";
+@use "scss/toastr.scss";
+@use "scss/bootstrap.scss";
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+.style-scroll {
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #9eb4b0;
+    border-radius: 4px;
+    background-clip: padding-box;
+  }
+}

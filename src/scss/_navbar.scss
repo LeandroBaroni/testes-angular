@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+  .navbar {
+    --bs-navbar-padding-y: 2rem;
+  }
+}
+
+.navbar-nav {
+  --bs-nav-link-color: white;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

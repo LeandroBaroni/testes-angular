@@ -1,0 +1,59 @@
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}
+
+input[type="number"] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-control[type="color"] {
+  height: 3rem;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.ng-submitted {
+  .form-control.ng-invalid {
+    border-color: var(--bs-danger);
+  }
+
+  .form-control.ng-invalid:focus {
+    box-shadow: 0 0 0 1px var(--bs-danger);
+  }
+
+  .ng-select.ng-invalid .ng-select-container {
+    border-color: var(--bs-danger);
+  }
+}
+
+.control-error {
+  color: var(--bs-danger);
+}
+
+.green-input-switch {
+  height: 19px;
+  cursor: pointer;
+  border: 0 !important;
+  margin: 0 !important;
+  width: 43px !important;
+  background-color: #a4acb9;
+  border-radius: 12px !important;
+  background-size: 15px !important;
+  background-position: 2px center !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%28255, 255, 255, 1%29'/%3e%3c/svg%3e") !important;
+
+  &:checked {
+    background-color: #31c0a4 !important;
+    background-position: calc(100% - 2px) center !important;
+  }
+}

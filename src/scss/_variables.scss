@@ -1,0 +1,44 @@
+$font-family-sans-serif: "TT Runs Regular", sans-serif;
+$font-family-sans-serif: "Poppins", sans-serif;
+
+$btn-font-weight: 700;
+
+$primary: #232931;
+$secondary: #393E46;
+$tertiary: #4ECCA3;
+$quaternary: #e7e962;
+$success: #1ad698;
+$info: #0dcaf0;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #212529;
+$pink: #f84f6a;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "tertiary": $tertiary,
+  "quaternary": $quaternary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark
+);
+
+$headings-margin-bottom: 0;
+$paragraph-margin-bottom: 0;
+
+$link-decoration: inherit;
+
+$input-padding-y: 0.6875rem;
+$input-padding-x: 1rem;
+
+$focus-ring-width: 1px;
+
+$border-color: #8c8a97;
+$input-color: #8c8a97;
+
+$navbar-padding-y: 0.875rem;
